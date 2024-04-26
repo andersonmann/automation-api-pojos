@@ -14,10 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 
 public class CreateUserTest {
-
-    // URI base da API
     private static final String BASE_URI = "http://reqres.in/api/";
-
     private static final String CREATE_USER_ENDPOINT = "users";
 
     public static class User {
